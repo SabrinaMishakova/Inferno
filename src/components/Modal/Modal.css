@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Marcellus&display=swap');
+.ReactModal__Content{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 650px;
+    margin: 0 auto;
+    justify-content: center;
+    
+    
+}
+
+.ReactModal__Content h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+margin-left: 185px;
+}
+.ModalCard{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 70px;
+
+}
+.ModalCard .ModalCarditem img{
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+}
+.ModalCarditem{
+    display: flex;
+    gap: 24px;
+    border: 1px solid hsla(0, 0%, 0%, 0.10);
+    padding: 20px;
+    border-radius: 10px;
+}
+.ModalCard{
+
+    .item-text h3{
+        font-size: 20px;
+    }
+    .item-text p{
+        font-size: 14px;
+    }
+    .item-text span{
+        font-size: 24px;
+    }
+}
+.modal-sum{
+    border: 1px solid hsla(0, 0%, 0%, 0.10);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 505px;
+    border-radius: 10px;
+}
+
+.modal-sum p{
+    font-family: 'Marcellus', serif;
+}
+.modalPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.10);
+    padding-bottom: 20px;
+}
+.modalPrice span{
+    color: hsla(0, 0%, 0%, 0.60);
+}
+.cardPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.salles{
+    display: flex;
+    gap: 12px;
+}
+.salles [type=text]{
+    width: 326px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #F0F0F0;
+    padding-left: 26px;
+}
+
+.salles [type=submit]{
+    width: 120px;
+}
+
+.item-text span{
+    font-family: 'Marcellus', serif;
+}
+
+.item-text{
+    position: relative;
+  
+}
+
+.item-text a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.596);
+    border-bottom: 1px solid black;
+}

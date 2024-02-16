@@ -1,0 +1,12 @@
+.sorting{
+    display: flex;
+    gap: 5px;   
+}
+.sorting select{
+    border: none;
+    outline: none;
+}
+
+.sorting p{
+    color: rgba(0, 0, 0, 0.479);
+}
